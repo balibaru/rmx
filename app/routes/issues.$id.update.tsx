@@ -1,5 +1,5 @@
-import type { ActionArgs } from "@remix-run/node";
-import { json } from "@remix-run/node";
+import type { ActionArgs } from "@remix-run/cloudflare";
+import { json } from "@remix-run/cloudflare";
 import invariant from "tiny-invariant";
 
 import { updateIssue } from "~/data";

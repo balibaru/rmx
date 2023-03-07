@@ -1,4 +1,4 @@
-import type { LoaderArgs } from "@remix-run/node";
+import type { LoaderArgs } from "@remix-run/cloudflare";
 import { eventStream } from "remix-utils";
 
 import { emitter, EVENTS } from "~/events";

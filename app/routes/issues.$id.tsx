@@ -1,5 +1,5 @@
-import type { LoaderArgs, MetaFunction } from "@remix-run/node";
-import { json } from "@remix-run/node";
+import type { LoaderArgs, MetaFunction } from "@remix-run/cloudflare";
+import { json } from "@remix-run/cloudflare";
 import { useFetcher, useLoaderData } from "@remix-run/react";
 import invariant from "tiny-invariant";
 

@@ -1,4 +1,4 @@
-import { json } from "@remix-run/node";
+import { json } from "@remix-run/cloudflare";
 import { Link, useFetcher, useNavigate } from "@remix-run/react";
 import { useLoaderData } from "@remix-run/react";
 import classNames from "classnames";
